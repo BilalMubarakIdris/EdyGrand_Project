@@ -660,6 +660,215 @@ header {
 }
 /* Business section End */
 
+/* Employee Section Start */
+.employee-container{
+  color: #fff;
+  padding: 4rem 0;
+  background-color: #000;
+}
+
+.employee-cards{
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.employee-card{
+  width: 20%;
+}
+.employee-card h3{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.employee-card p{
+  font-size: 0.7rem;
+  line-height: 2;
+}
+.employee-link{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.employee-btn{
+  display: block;
+  font-size: 0.7rem;
+  color: #fff;
+}
+.emp-learn-icon{
+  color: #fff;
+  font-size: 0.7rem;
+  margin-left: 1.5rem;
+}
+.employee-icons{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+.employee-icon{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  border-right: 1px solid #fff;
+}
+.employee-icon:nth-child(4n) {
+  border-right: none
+}
+.emp-icon{
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #FFD202;
+}
+.icon-desc h2{
+  font-size: 1.3rem;
+  color: #FFD202;
+  margin-bottom: 0.5rem;
+}
+.icon-desc p{
+  width: 50px;
+  font-size: 0.7rem;
+  /* border: 1px solid red; */
+}
+/* Employee Section End */
+
+/* For College Section Start */
+.for-college-container{
+  padding: 4rem 0;
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), url(../images/company.jpg), lightgray 6.667px 4.575px / 100% 199.403% no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.for-college{
+  width: 47%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 0;
+}
+.for-college h2{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.for-college p{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.for-college-link{
+  margin-top: 2rem;
+}
+.college-btn{
+  color: #fff;
+  font-size: 0.7rem;
+  display: block;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+}
+/* For College Section End */
+
+/* College activities Section Start */
+.college-activities-container{
+  padding: 4rem 0;
+  background-color: #F1F3F3;
+}
+.activities-cards{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.activity-card{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+}
+.activity-img{
+  width: 45%;
+  padding:0.5rem;
+}
+.activity-img img{
+  width: 100%;
+}
+.activity-desc{
+  padding:0.5rem;
+  width: 50%;
+}
+.activity-desc h4{
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.activity-desc p{
+  font-size: 0.7rem;
+  line-height: 1.8;
+}
+.activity-link{
+  margin-top: 0.6rem;
+  display: flex;
+  align-items: center;
+}
+.activity-btn,
+.activity-icon{
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #FFD202;
+}
+/* College activities Section End */
+
+/* For E-hub Section Start */
+.hub-container{
+  padding: 4rem 0;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+.hub-cards{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.hub-img{
+  width: 40%;
+}
+.hub-img img{
+  width: 100%;
+}
+.hub-desc{
+  width: 45%;
+}
+.hub-desc h2{
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.hub-desc p{
+  font-size: 0.7rem;
+  line-height: 1.7;
+}
+.hub-link{
+  margin-top: 1.5rem;
+}
+.hub-btn{
+  color: #000;
+  font-size: 0.7rem;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
+/* For E-hub Section End */
+
 @media screen and (max-width: 1022px) {
   /* Header Styles */
   header {
